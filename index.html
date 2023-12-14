@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/style.css" />
+    <link href="https://fonts.cdnfonts.com/css/luminari" rel="stylesheet" />
+    <title>Potion Website</title>
+</head>
+
+<body>
+
+    <header>
+        <img id="title-img" src="https://drive.google.com/uc?export=view&id=1WabXlwRn5NbnFi-ZQO9MzyLAzYwYwB_H" />
+        <nav>
+            <h2 class="nav-item">Home</h2>
+            <h2 class="nav-item">Wares</h2>
+            <h2 class="nav-item">About</h2>
+            <h2 class="nav-item">Contact Us</h2>
+        </nav>
+        <aside>
+            <p class="cartmessage"></p>
+        </aside>
+    </header>
+
+    <main>
+        <section id="cartainer">
+            <p id="cart-count">Wagon: 0 Potions</p>
+        </section>
+        <section id="bio-background">
+            <div id="bio">
+                <p id="bio-title">This is our specialty: making sure you don't die.</p>
+                <p>If you're dead, we go out of business. So don't do that!<br /><br />We've been keeping our local
+                    potion business going for the last two millenium so YOU can live to fight another day and return to
+                    purchase our overpriced (and monopolized) potion selections.</P>
+            </div>
+            <p id="announcement">In a world of dragons and magic, your knees can fail you at any moment! Ensure your
+                survival (and knee health) with our house-made potions!</p>
+        </section>
+        <section id="productainer">
+            <h2 id="wares-title">Please, peruse our fine wares... </br>But not for too long.</br><span
+                    style="font-size: 20px; ">Seriously. Either buy something or recognize you're broke.</span></h2>
+            <div class="product">
+                <div>
+                    <img class="potion-img"
+                        src="https://cdn.midjourney.com/2dc2e25a-475e-493c-a9db-088d22b1c4de/grid_0_640_N.webp" />
+                </div>
+                <div class="prod-right">
+                    <h2 class="potion-title">Potion of Greater Healing</h2>
+                    <p class="potion-desc">Every adventurer's best friend. Although, if you only use it when you need
+                        it, can you really call that a friend? That feels a bit one sided to me. Maybe you should
+                        appreciate your healing potions more, you ungrateful rat.</p>
+                    <div class="prod-btm">
+                        <p class="price">20 Gold Pieces</p>
+                        <button class="prod-btn btn-one">Add to Wagon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <img class="potion-img"
+                        src="https://cdn.midjourney.com/a37805ed-a9c8-4276-b40c-6c158e4b2b86/grid_0_640_N.webp" />
+                </div>
+                <div class="prod-right">
+                    <h2 class="potion-title">Potion of Mana</h2>
+                    <p class="potion-desc">For all you pretentious wizards out there. Take it and leave. We don't
+                        appreciate your kind. You make all of us feel like we chose the wrong profession with your lame
+                        magic and your... tricks. *Proceeds to a corner to wipe away tears filled with dreams of being a
+                        wizard*</p>
+                    <div class="prod-btm">
+                        <p class="price">20 Gold Pieces</p>
+                        <button class="prod-btn btn-two">Add to Wagon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <img class="potion-img"
+                        src="https://cdn.midjourney.com/c0b5210a-8888-4dc2-9cc1-8cac7d686ea8/grid_0_640_N.webp" />
+                </div>
+                <div class="prod-right">
+                    <h2 class="potion-title">Potion of Strength</h2>
+                    <p class="potion-desc">Oh sure, you can definitely take a quick swig before hitting the weights. No
+                        one will know. But we will. </br></br>We'll still sell it to you. But all of us here at Arrow to
+                        the Knee Potions <span style="font-size: 10px; font-family: Arial;">TM</span> will be silently
+                        judging you for your mental weakness.</p>
+                    <div class="prod-btm">
+                        <p class="price">50 Gold Pieces</p>
+                        <button class="prod-btn btn-three">Add to Wagon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <img class="potion-img"
+                        src="https://cdn.midjourney.com/4464590a-76e7-442f-92ee-1296b25515a6/grid_0_640_N.webp" />
+                </div>
+                <div class="prod-right">
+                    <h2 class="potion-title">Potion of Flying</h2>
+                    <p class="potion-desc">Um... It makes you fly. We highly recommend landing before it wears off,
+                        which duration time can vary... You'll need to sign a waiver. We also don't offer insurance. But
+                        you'll get to fly. So that's something. And definitely worth the risk.</br></br>...definitely.
+                    </p>
+                    <div class="prod-btm">
+                        <p class="price">100 Gold Pieces</p>
+                        <button class="prod-btn btn-four">Add to Wagon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <img class="potion-img"
+                        src="https://cdn.midjourney.com/69b5008d-3e7a-46d9-8a41-fbb7ba73829f/grid_0_640_N.webp" />
+                </div>
+                <div class="prod-right">
+                    <h2 class="potion-title" id="harrys-potion">The Potion that Shall Not be Named</h2>
+                    <p class="potion-desc">Our intern, Harry, concocted this one up while no one was looking, the idiot.
+                        Wasted our last bottle of gnome-child's tears. We don't know what it is or what it does. Will it
+                        grant you night vision? Invincibility? Death? Try it out at a reasonable discount with a waiver.
+                        Don't let Harry's internship termination be in vain.</p>
+                    <div class="prod-btm">
+                        <p class="price">1 Gold Piece</p>
+                        <button class="prod-btn btn-five">Add to Wagon</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="footer-top">
+            <div id="hero">
+                <h3><span style="text-decoration: underline;">Hero of the Week:</span></h3>
+                <p><span style="color: palegoldenrod; font-size: 25px; text-shadow: -2px 3px 8px black;">Sir Gallahad
+                        the Foolish</span></br><span style="font-size: 15px;">Died of dissentery before he could redeem
+                        his emergency aputation discount. A shame.</span></p>
+                <img id="hero-pic"
+                    src="https://www.shutterstock.com/image-photo/excited-young-man-medieval-warrior-260nw-2130275522.jpg" />
+            </div>
+            <div id="help">
+                <h3>Get Help</h3>
+                <p>Limbs for longswords Rewards</p>
+                <p>Returns (All Returns Final)</p>
+                <p>Contact Us (Please Don't)</p>
+            </div>
+            <div id="about">
+                <h3>About</h3>
+                <p>Careers</p>
+                <p>News and Such</p>
+                <p>Potion Ingredients (Guesstimates)</p>
+            </div>
+            <div id="email-sect">
+                <p><span style="font-size: 22px;">Sign up for our newsletter and get the latest in adventure, tall
+                        tales, and death!</span></p>
+                <div id="emailbtn-sect">
+                    <p>Email:</p>
+                    <input placeholder="Type Email Here"></input>
+                    <button id="email-btn">Sign Me Up, My Good Lad!</button>
+                </div>
+            </div>
+        </section>
+        <section id="footer-btm">
+            <h3>
+                Located to the right of the gallows just before the old haunted orphanage in Brownrun Castle Village
+            </h3>
+        </section>
+    </footer>
+
+    <script src="./Assets/script.js">
+
+</body>
+
+</html>
